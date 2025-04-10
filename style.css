@@ -1,0 +1,536 @@
+@font-face {
+    font-family: "WinkySans-Bold";
+    src: url("WinkySans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "WinkySans-Regular";
+    src: url("WinkySans-Regular.ttf") format("truetype");
+}
+    
+body{
+
+margin: 0;
+padding: 0;
+background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0)),url(back3.png  );
+background-size:70% ;
+overflow-x: hidden;
+
+
+}
+
+
+
+header{
+    display: block;
+    justify-items: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)); 
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+.Decouvrir:hover{  
+    transition: 1s;
+    transform: translateY(-5px);
+    
+    
+}
+
+
+.top-page{
+    font-family: "WinkySans-Regular";
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 20px;
+gap: 120px;
+margin-right: 20px;
+margin-left: 20px;
+padding: 20px;
+border-radius: 24px;
+z-index: 1;
+font-size: 20px;
+color: white;
+font-size: 30px;
+
+
+}
+
+
+.logo img{
+width: 70px;
+filter: brightness(100%);
+}
+.Menu{
+display: flex;
+gap: 40px;
+}
+
+.millieu-page{
+    font-size: 60px;
+    display: flex ;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    font-family: "WinkySans-Bold";
+   margin-top: 80px;
+   animation: reveal linear;
+   animation-timeline: view();
+   animation-range-start: contain 90% ;
+   animation-range-end: contain 140%;
+}
+.bas-page{
+    font-family: "WinkySans-Regular";
+    font-size: 30px;
+    display: flex ;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white;
+    padding-top: 20px;
+   margin-top: 150px;
+   margin-right: 100px;
+   margin-left: 100px;
+   border-top: solid 2px ;
+   width: 40%;
+   Zoom: 1.2;
+   animation: reveal linear;
+   animation-timeline: view();
+   animation-range-start: contain 20% ;
+   animation-range-end: contain 150%;
+}
+
+.Search img{
+    width: 30px;
+    filter: brightness(100%);
+}
+
+.Search {
+    display: flex; 
+    gap:10px ;
+}
+
+.containt-haut-page{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: noir linear;
+    animation-timeline: view();
+    animation-range-start: contain -90% ;
+    animation-range-end: contain 610%;
+    box-shadow: 0px 6px 20px 0px;
+    z-index: 4;
+}
+.bouton{
+    font-family: "WinkySans-Regular";
+    font-size: 17px;
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 1000px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 2px;
+   
+}
+
+.bouton2{
+    font-family: "WinkySans-Regular";
+    font-size: 30px;
+    margin-top: 30px;
+    background-color: darkgreen;
+    color: rgb(255, 255, 255);
+    border-radius: 1000px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 2px;
+    position: relative;
+    width: 450px;
+   
+}
+.bouton2 img{
+    width: 20px;
+}
+.bouton img{
+    width: 20px;
+}
+
+.mid{
+    margin-top: 150px; 
+    margin-left: 100px;
+    
+    display: flex;
+    animation: reveal linear;
+    animation-timeline: view();
+    animation-range-start: contain 120% ;
+    animation-range-end: contain 770%;  
+}
+
+.mid2{
+    margin-top: 150px; 
+    
+    display: flex;
+    animation: reveal linear;
+    animation-timeline: view();
+    animation-range-start: contain 120% ;
+    animation-range-end: contain 770%;
+
+   
+}
+
+.particulier img{
+    width: 500px;
+    border-radius:24px ;
+    animation: reveal-haut linear;
+    animation-timeline: view();
+    animation-range-start: contain -490% ;
+    animation-range-end: contain 0%;
+}
+.plat img{
+    width: 300px;
+    border-radius:24px ;
+    position: relative;
+    z-index: 1;
+    left: 250px;
+    bottom:  100px;
+    animation: reveal-haut linear;
+    animation-timeline: view();
+    animation-range-start: contain -490% ;
+    animation-range-end: contain 0%;
+}
+.titre{
+font-size: 35px;
+position: relative;
+
+font-family: "WinkySans-Bold";
+color: darkgreen;
+border-top: solid 2px;
+padding-top: 10px;
+animation: reveal-haut linear;
+animation-timeline: view();
+animation-range-start: contain -490% ;
+animation-range-end: contain 0%;
+}
+
+.titrei{
+    font-size: 25px;
+    position: relative;
+    font-family: "WinkySans-Bold";
+    color: darkgreen;
+    border-top: solid 2px;
+    padding-top: 10px;
+    
+    }
+
+    .paragraphei{
+        font-size: 20px;
+        position: relative;
+        font-family: "WinkySans-Regular";
+        color: rgb(0, 0, 0);
+        text-shadow: 4px 1px 20px d;
+        padding-top: 10px;
+        }
+.surtitre{
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-family: "WinkySans-Bold";
+    color: rgb(0, 0, 0);
+    animation: reveal-haut linear;
+    animation-timeline: view();
+    animation-range-start: contain -490% ;
+    animation-range-end: contain 0%;
+    
+    }
+
+.paragraphe{
+    font-size: 25px;
+    position: relative;
+    
+    font-family: "WinkySans-Regular";
+    color: rgb(0, 0, 0);
+    text-shadow: 4px 1px 20px d;
+    padding-top: 10px;
+    animation: reveal-haut linear;
+    animation-timeline: view();
+    animation-range-start: contain -490% ;
+    animation-range-end: contain 0%;
+    }
+.droite-mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+    animation: reveal-haut linear;
+    animation-timeline: view();
+    animation-range-start: contain -490% ;
+    animation-range-end: contain 0%;
+}
+
+.droite-midi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    margin-right: 100px;
+    animation: reveal-haut linear;
+    animation-timeline: view();
+    animation-range-start: contain -490% ;
+    animation-range-end: contain 0%;
+}
+
+
+.image2{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    
+   
+}
+.particulier2 img{
+    width: 500px;
+    border-radius:24px ;
+    animation: reveal-haut linear;
+    animation-timeline: view();
+    animation-range-start: contain -490% ;
+    animation-range-end: contain 0%;
+}
+
+.plat2 img{
+    width: 300px;
+    border-radius:24px ;
+    position: absolute;
+    z-index: 1;
+    left:  500px;
+    bottom: 50px;
+    animation: reveal-haut linear;
+    animation-timeline: view();
+    animation-range-start: contain -490% ;
+    animation-range-end: contain 0%;
+}
+
+.titre2{
+font-size: 35px;
+position: relative;
+font-family: "WinkySans-Bold";
+color: darkgreen;
+border-top: solid 2px;
+padding-top: 10px;
+}
+.surtitre2{
+    font-size: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 10px;
+    position: relative;
+    
+    font-family: "WinkySans-Bold";
+    color: rgb(0, 0, 0);
+    animation: reveal-haut linear;
+    animation-timeline: view();
+    animation-range-start: contain -490% ;
+    animation-range-end: contain 0%;
+    
+    }
+
+.paragraphe2{
+    font-size: 25px;
+    position: relative;
+    font-family: "WinkySans-Regular";
+    color: rgb(0, 0, 0);
+    padding-top: 10px;
+    
+    }
+.gauche-mid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: slide-gauche  linear;
+    animation-timeline: view();
+    animation-range-start: contain -800% ;
+    animation-range-end: contain 0%;
+}
+.gauche-mid2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: slide-gauche linear;
+    animation-timeline: view();
+    animation-range-start: contain -490% ;
+    animation-range-end: contain 0%;
+}
+.gauche-mid3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left:100px ;
+    margin-right:100px ;
+    
+}
+.certif{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.certif img{
+  border-radius: 24px;
+  margin-left: 20px;
+  animation: slide-droite linear;
+  animation-timeline: view();
+  animation-range-start: contain -490% ;
+  animation-range-end: contain 0%;
+}
+.plats-types img    {
+    margin-top: 40px;
+    border-radius: 24px;
+    width: 600px;
+    border: 2px solid darkgreen;
+}
+
+.bouton2 a{
+    text-decoration: none;
+    color: white;
+}
+.bouton2:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.bouton2 img {
+    width: 50px;
+    margin-left: 20px;
+}
+
+
+.Soustitre{
+    font-size: 25px;
+position: relative;
+right: 240px;
+font-family: "WinkySans-Bold";
+color: darkgreen;
+padding-top: 30px;
+}
+
+
+
+@keyframes reveal{
+    from{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+
+    to{
+        transform: translateY(-100px);
+        opacity: 0  ;
+    }
+}
+
+
+@keyframes noir{
+
+    0%{
+        
+        background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),url(paysage-landing.png);
+    }
+
+    16%{
+        
+        background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)),url(paysage-landing.png);
+    }
+
+   
+
+    32%{
+        background-image: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)),url(paysage-landing.png);
+        
+    }
+
+    48%{
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)),url(paysage-landing.png);
+        
+    }
+
+    64%{
+        background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),url(paysage-landing.png);
+        
+    }
+    80%{
+        background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url(paysage-landing.png);
+        
+    }
+
+    100%{
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(paysage-landing.png);
+        
+    }
+}
+
+
+
+@keyframes reveal-haut{
+    from{
+        transform: translateY(-300px);
+       
+        opacity: 0;
+    }
+
+    to{
+        transform: translateY(0px);
+        
+        opacity: 1;
+    }
+}
+@keyframes slide-gauche{
+    from{
+        transform: translateX(-300px);
+       
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0px);
+        
+        opacity: 1;
+    }
+}
+
+@keyframes slide-droite{
+    from{
+        transform: translateX(300px);
+       
+        opacity: 0;
+    }
+
+    to{
+        transform: translateX(0px);
+        
+        opacity: 1;
+    }
+}
